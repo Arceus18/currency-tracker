@@ -1,3 +1,54 @@
+# 💱 Currency Tracker App
+
+A simple and modern React app to convert currencies using the [Fixer API](https://apilayer.com/marketplace/fixer-api). It lets users pick base and target currencies using beautiful searchable dropdowns, enter an amount, and instantly see the conversion result—with smooth animations and a sleek UI.
+
+## ✨ Features
+
+- 🌍 Live currency conversion using Fixer API
+- 🔎 Searchable dropdowns for currency selection
+- ⚡ Smooth animations (Framer Motion)
+- 🎨 Modern design with gradients and glass effect
+- 🧠 Beginner-friendly React structure
+- 🔐 Secure API calls (with header auth)
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/Arceus18/currency-tracker.git
+cd currency-tracker
+
+2. Install Dependencies
+
+3. Set Your API Key
+Create a .env file in the root and add:
+REACT_APP_FIXER_API_KEY=your_api_key_here
+
+Update your component to use:
+const FIXER_API_KEY = process.env.REACT_APP_FIXER_API_KEY;
+
+4. Run the App
+npm start
+
+The app will be available at http://localhost:3000
+🧩 Tech Stack
+React
+
+Axios
+
+Framer Motion
+
+React Select
+
+Tailwind CSS (optional)
+
+🛠️ Credits
+Built by a real human (hi 👋) who loves clean code and good UI.
+Designed with learning and simplicity in mind.
+📬 Feedback
+If you have ideas to improve this or want to collaborate, feel free to open an issue or fork the repo. Pull requests welcome!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
